@@ -5,6 +5,7 @@ const Recipes = props => {
   const { recipes } = props;
   return (
     <div class="row">
+      <h2 class="section-name">our delicious collections</h2>
       {recipes.map(recipe => (
         <RecipeItem
           key={Math.random() * 100}
