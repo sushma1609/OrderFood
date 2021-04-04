@@ -36,31 +36,9 @@ function App() {
     getRecipes();
   };
   return (
-    // <Router>
+
     <div className="App">
       <Navbar />
-      {/* <Link to="/Login">Login</Link> <br />
-        <Link to="/Register">Register</Link><br />
-        {/* <Link to="/Dashboard">Dashboard</Link><br /> */}
-
-      {/* <switch>
-          <Route exact path="/login" component={LoginPage} />
-          <Route exact path="/register" component={RegisterPage} />
-          <Route exact path="/hung-out" component={Header} />
-          <Route exact path="/recipes" component={Recipes} />
-
-        </switch> */}
-      {/* <Link to="/Login">Login</Link> <br />
-        <Link to="/Register">Register</Link><br /> */}
-      {/* <Link to="/Dashboard">Dashboard</Link><br /> */}
-
-      {/* <switch>
-          <Route exact path="/login" component={LoginPage} />
-          <Route exact path="/register" component={RegisterPage} />
-          <Route exact path="/hung-out" component={Header} />
-          <Route exact path="/recipes" component={Recipes} />
-
-        </switch> */}
       < Header
         search={search}
         onInputChange={onInputChange}
@@ -69,19 +47,9 @@ function App() {
       <div className="container">
         <Recipes recipes={recipes} />
       </div>
-      {/* <Link to="/Login">Login</Link> <br />
-        <Link to="/Register">Register</Link><br />
-        {/* <Link to="/Dashboard">Dashboard</Link><br /> */}
 
-      {/* <switch>
-          <Route exact path="/login" component={LoginPage} />
-          <Route exact path="/register" component={RegisterPage} />
-          <Route exact path="/hung-out" component={Header} />
-          <Route exact path="/recipes" component={Recipes} />
-
-        </switch> */}
     </div>
-    // </Router>
+
   );
 }
 
